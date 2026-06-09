@@ -16,6 +16,9 @@ SOLICITUDES_CSV = "solicitudes_vacaciones.csv"
 
 # ------------------ Funciones de CSV ------------------
 def leer_empleados():
+    """ 
+    Lee contenido de csv empleados. 
+    """
     empleados = {}
     if not os.path.exists(EMPLEADOS_CSV):
         print(f"Error: No se encuentra el archivo {EMPLEADOS_CSV}")
@@ -31,6 +34,13 @@ def leer_empleados():
             except (ValueError, KeyError):
                 continue
     return empleados
+
+def actualizar_saldo():
+    """
+    Resta los días solicitados en csv empleados.
+    """
+    if not os.path.exists(EMPLEADOS_CSV):
+        return
 
 
 empleados_db = leer_empleados()
