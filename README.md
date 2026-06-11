@@ -4,7 +4,7 @@
 
 Este proyecto simula un asistente virtual de Recursos Humanos que automatiza todo el ciclo de solicitud de vacaciones: desde la validación del legajo hasta la actualización del saldo disponible, pasando por la aprobación o rechazo según la regla de negocio. El bot está implementado en Python con una máquina de estados finitos y manejo robusto de errores (caminos infelices), demostrando la integración entre el modelado de procesos BPMN y el código funcional.
 
-El sistema fue desarrollado como proyecto final de la materia **Organización Empresarial** de la **Tecnicatura Universitaria en Programación (TUP) - a distancia** - **UTN**.
+El sistema fue desarrollado como proyecto final de la materia **Organización Empresarial** de la **Tecnicatura Universitaria en Programación (a distancia)** de la **Universidad Tecnológica Nacional**.
 
 
 ## Características principales
