@@ -52,8 +52,8 @@ def actualizar_saldo(empleados_db):
 # ------------------ FUNCIONES DE NEGOCIO ------------------
 def validar_legajo(legajo, empleados):
     """Verifica si el legajo existe. Devuelve los datos del empleado o None."""
-    if legajo in empleados_db:
-        return empleados_db[legajo]
+    if legajo in empleados:
+        return empleados[legajo]
     return None
 
 def validar_dias(entrada):
