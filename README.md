@@ -28,9 +28,9 @@ El sistema fue desarrollado como proyecto final de la materia **Organización Em
 3. Asegurarse de que el archivo empleados.csv esté en la misma carpeta.
 4. Ejecutar:
 
-´´´
+```bash
 python3 bot_vacaciones.py
-´´´
+```
 
 5. Seguir las instrucciones en pantalla. En cualquier momento se puede escribir salir para terminar.
 
